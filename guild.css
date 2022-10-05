@@ -1,0 +1,34 @@
+#guildavatar{
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+}
+#guildavatar #guildimg{
+	width: 60px;
+	height: 68px;
+}
+.flex{
+		margin-left: 10px;
+}
+.nazvan{
+	font-size: 19px;
+	font-weight: bold;
+
+}
+#ycha{
+	font-size: 13px;
+}
+#znackid{
+width: 18px;
+margin-top: 6px;
+}
+#divguild{
+position: absolute;
+margin-left: 14px;
+margin-top: -61px;
+width: 30px;
+border-radius: 50px;
+background: white;
+height: 30px;
+text-align: center;
+}

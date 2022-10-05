@@ -1,19 +1,16 @@
-const express = require('express');
-const bodyparser = require('body-parser')
-const app = express();
-const path = require('path');
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname + '/home.html'))
+const { Client, GatewayIntentBits } = require('discord.js');
+const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+
+client.on('ready', () => {
+	console.log(`Logged in as ${client.user.tag}!`);
 });
 
-app.get('/test', (req, res) => {
-  // make sure your discord.js client is available somewhere in this file
-  res.json({
-    tag: client.user.tag
-  });
+client.on('interactionCreate', async (interaction) => {
+	if (!interaction.isChatInputCommand()) return;
+
+	if (interaction.commandName === 'ping') {
+		await interaction.reply('Pong!');
+	}
 });
 
-app.use(bodyparser.text())
-app.listen(3000, () => {
-  console.log('server started');
-});
+client.login('OTg3NzAzMjM1OTE5ODg0Mjg4.GxWdua.c-SnSxgitQBUMrZKcOfXLOS1EI0vXesPvue9UU');
