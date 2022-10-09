@@ -1,0 +1,21 @@
+@media screen and (max-width: 800px){
+	.TitleReg {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+}
+
+@media screen and (max-width: 500px){
+	.TitleReg {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+}
+@media screen and (max-width: 400px){
+
+.contentRegister {
+  max-width: 72%;
+
+}

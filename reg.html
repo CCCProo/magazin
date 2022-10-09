@@ -10,23 +10,21 @@
 	<title>Document</title>
 </head>
 <body>
-	<a href="" onclick="return false;" class="ButtonRegister" id="register">Зарегистрироваться</a>
-	<a href="" onclick="return false;" class="ButtonEntrance" id="entrance">Зарегистрироваться</a>
 	<div class="RegisterFormModel">
-		<form class="contentRegister">
+		<form class="contentRegister" action="phpreg.php" method="get">
 			<div class="AutoReg">
 				<div class="TitleReg">Зарегистрироваться</div>
 				<div class="textalingcenter">
 					<div class="TitleReg1">Логин</div>
 				</div>
 				<div >
-					<input class="InputRegister" placeholder="Ваш Логин" type="text" name="">
+					<input class="InputRegister" placeholder="Ваш Логин" type="text" name="accname">
 				</div>
 				<div class="textalingcenter">
 					<div class="TitleReg1">Пароль</div>
 				</div>
 				<div >
-					<input class="InputRegister" placeholder="Пароль" type="password" name="">
+					<input class="InputRegister" placeholder="Пароль" type="password" name="accpass">
 				</div>
 				<div >
 					<input class="InputRegister" placeholder="Повторите Пароль" type="password" name="">
@@ -48,32 +46,7 @@
 				</div>	
 				<a href="" onclick="return false;" id="ExitRegister">Закрыть</a>
 			</div>
-		
-		</form>
-	</div>
-
-	<div class="EntranceFormModel">
-		<form class="contentRegister">
-			<div class="AutoReg">
-				<div class="TitleReg">Войти</div>
-				<div class="textalingcenter">
-					<div class="TitleReg1">Логин</div>
-				</div>
-				<div >
-					<input class="InputRegister" placeholder="Ваш Логин" type="text" name="">
-				</div>
-				<div class="textalingcenter">
-					<div class="TitleReg1">Пароль</div>
-				</div>
-				<div >
-					<input class="InputRegister" placeholder="Пароль" type="password" name="">
-				</div><br>
-				<div class="FormGG" >
-					<a href="" class="ButtonEntrance PixelFF18">Войти</a>
-				</div>
-				<a href="" onclick="return false;" id="ExitEntrance">Закрыть</a>
-			</div>
-		
+			<p><input type="submit" /></p>
 		</form>
 	</div>
 </body>

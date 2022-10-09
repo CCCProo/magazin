@@ -1,0 +1,99 @@
+*{
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+body{
+	color: #18191B;
+	font-family: "Montserrat",sans-serif;
+font-style: normal;
+}
+.ButtonRegister{
+		color: white;
+	padding: 10px 5px 10px 5px;
+	background: red;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.ButtonEntrance{
+		color: white;
+	padding: 10px 5px 10px 5px;
+	background: red;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.contentRegister{
+-webkit-transform: translate(0, -25%);
+-ms-transform: translate(0, -25%);
+transform: translate(0, -25%);
+-webkit-transition: -webkit-transform 0.3s ease-out;
+-o-transition: -o-transform 0.3s ease-out;
+transition: -webkit-transform 0.3s ease-out;
+-o-transition: transform 0.3s ease-out;
+transition: transform 0.3s ease-out;
+transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+display: inline-block;
+vertical-align: middle;
+margin: 30px auto;
+max-width: 50%;
+position: fixed;
+right: 0;
+margin-top: 200px;
+left: 0;
+}
+.AutoReg{
+	width: auto !important;
+height: auto !important;
+border: 0;
+padding: 38px 40px 40px 40px;
+background: #fff;
+border-radius: 16px;
+position: relative;
+margin: 0;
+text-align: left;
+}
+.textalingcenter{
+	width: 740px;
+max-width: calc(100vw - 40px - 80px);
+display: -webkit-flex;
+-webkit-flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
+}
+.TitleReg{
+font-weight: bold;
+font-size: 28px;
+margin-bottom: 16px ;
+}
+.TitleReg1{
+	font-weight: bold;
+font-size: 16px;
+color: #18191B;
+margin-bottom: 8px;
+}
+.InputRegister{
+	background: #FFFFFF;
+border: 1px solid rgba(147,147,147,0.4);
+border-radius: 6px;
+height: 24px;
+padding: 12px 14px 12px 14px;
+font-weight: 500;
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 16px;
+line-height: 150%;
+color: #18191B;
+width: calc(100% - 30px);
+display: block;
+}
+.FormGG{
+	margin-bottom: 18px;
+}
+.PixelFF18{
+	font-size: 18px;padding: 13px 12px 13px 13px;
+}
